@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -7,6 +7,11 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "url": "https://github.com/madpixelchile/mdpc-card-example",
+    "type": "git"
+  },
+  "homepage": "https://proactivelatam.cl/",
   "engines": {
     "node": ">=10"
   },
@@ -61,7 +66,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-test-renderer": "^17.0.2",
+    "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-sass": "^1.12.20",
     "size-limit": "^5.0.5",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
